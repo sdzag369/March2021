@@ -16,3 +16,4 @@ git status
 git log
 git stash (This is useful when you some reusable code that you want in all branches but doesn't want to commit/When you have some code written in one branch and due to certain circumstances you need to move to another branch and later you want to start coding from where you left you can use git stash)
 (stash stores multiple values in form of STACK (stash {idx},stash{idx1})
+git amend commitId (you can amend only latest commit msg using git amend)
