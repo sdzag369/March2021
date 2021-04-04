@@ -1,0 +1,18 @@
+git init
+git commit -m "msg"
+git push
+
+git remote add keyname giturl
+git remote -v (To view giturl )
+git pull
+git fetch
+git revert commitId
+git rebase branchname ( rebase won't maintian commit sequence, Used when you want to merge code of two difference branches,Doesn't maintian commit history, Ignores merge conflicts and merges code)
+git merge branchname ( maintains commit sequence,Used when you want to merge feature branch to master,Maintains commit history,Doesn't allow to merge code if conflict is present)
+git branch (give all branch details)
+git checkout branchname
+git checkout -b branhname ( create new branch and also checkout new branch at same time)
+git status
+git log
+git stash (This is useful when you some reusable code that you want in all branches but doesn't want to commit/When you have some code written in one branch and due to certain circumstances you need to move to another branch and later you want to start coding from where you left you can use git stash)
+(stash stores multiple values in form of STACK (stash {idx},stash{idx1})
